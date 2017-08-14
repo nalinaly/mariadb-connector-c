@@ -1,0 +1,96 @@
+# 第一章节
+
+
+# 第二章节
+
+  须臾强调[什么]{ :blue  :blue}东西呢，我其**实真的**不知道，你也不用再说了
+
+  * 
+~ Math
+e = mc^2
+~
+
+~ MathPre
+@function sqr_\pi( num :int ) \{
+   @return (num {\times} num \times{} \pi)
+}
+~
+
+~ MathDef
+\newcommand{\infer}[3]{#1 \vdash #2,:#3}
+~
+
+We infer $\infer{\Gamma}{e}{\tau}$.
+
+~ Corollary
+Here is a corollary.
+~
+
+~ Theorem { #th-euler }
+(_Euler's formula_)\
+For any real number $x$, we have: $e^{ix} = \cos x + i \sin x$.
+~
+
+#sec-math
+
+~ Equation { #eq-euler }
+e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n
+~
+
+~ Framed
+A block with a solid border.
+~
+
+~ Figure { #fig-figure; caption:"My figure"}
+  Figure contents.
+~
+第一个
+  * 第二个
+  * 第三个
+
+懂
+发送的DF
+
+放到 sfda sfd
+> Of life's two chief prizes, beauty and truth,
+> I found the first in a loving heart and the
+> second in a laborer's hand.\
+> &emsp;&emsp; --- Khalil Gibran
+
+
+* Abstract syntax
+  : The conceptual structure is called the *abstract syntax* of the language.
+* Concrete syntax
+  : The particular details and rules for writing expressions as strings 
+    of characters is called the concrete syntax.
+  : Perhaps some other meaning too?
+
+
+1. Banana.
+2. Bread.
+   Indent to continue.
+3. Basil.
+
+
+* Banana.
+* Bread.
+  A nested list:
+  - white
+  - whole grain
+* Basil.
+
+``` javascript
+function hello() {
+  return "world";
+}
+```
+
+### Heading 3 { #heading }
+
+And refer to Section [#heading].
+
+
+[link]: http://link.com "link title"
+
+
+# 第三章节**text**
